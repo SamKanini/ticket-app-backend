@@ -62,7 +62,7 @@ class EventViewSet(viewsets.ModelViewSet):
         return Response(serializer.data)
 
 class TicketViewSet(viewsets.ModelViewSet):
-    queryset = Ticket.objects.all()
+    queryset = Ticket.objects.all() #the data to work with
     serializer_class = TicketSerializer
     permission_classes = [IsAuthenticated]
     

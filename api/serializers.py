@@ -26,6 +26,7 @@ class CustomerSerializer(serializers.ModelSerializer):
         fields = ['id', 'user', 'phone']
 
 class TicketSerializer(serializers.ModelSerializer):
+    #explain Here
     event_name = serializers.CharField(source='event.name', read_only=True)
     
     class Meta:
