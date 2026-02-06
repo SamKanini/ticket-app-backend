@@ -147,6 +147,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://localhost:3000",
     "http://127.0.0.1:5173",
-    # You'll add your Render frontend URL here later
+    "https://ticket-app-frontend-4l5g.onrender.com"
 ]
 CORS_ALLOW_CREDENTIALS = True
